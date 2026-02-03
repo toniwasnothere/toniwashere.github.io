@@ -1,1 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toni Taiwo | Portfolio</title>
+    <meta name="description" content="Portfolio of Toni Taiwo — engineering student building C++ and web projects." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="logo" href="#top">TT</a>
+
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact" class="btn btn-primary">Contact</a>
+        </div>
+      </nav>
+
+      <section class="hero" id="top">
+        <p class="badge">C++ → Web → Advanced apps</p>
+        <h1>Toni Taiwo</h1>
+        <p class="subtitle">
+          Mechanical Engineering student building a portfolio from beginner to advanced projects —
+          starting with <strong>C++</strong>, then adding web skills as I learn them.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+          <a class="btn btn-ghost" href="https://github.com/YOURUSERNAME" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+
+        <div class="quick-stats">
+          <div class="stat">
+            <p class="stat-num">C++</p>
+            <p class="stat-label">Core language</p>
+          </div>
+          <div class="stat">
+            <p class="stat-num">Beginner → Advanced</p>
+            <p class="stat-label">Project ladder</p>
+          </div>
+          <div class="stat">
+            <p class="stat-num">Vancouver</p>
+            <p class="stat-label">Based in</p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main class="container">
+      <!-- PROJECTS -->
+      <section class="section" id="projects">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="section-sub">
+            I’m building projects in order (beginner → intermediate → advanced). Each repo has a clear README and progress history.
+          </p>
+        </div>
+
+        <div class="filters">
+          <span class="chip chip-accent">Beginner</span>
+          <span class="chip">Intermediate</span>
+          <span class="chip">Advanced</span>
+        </div>
+
+        <div class="grid">
+          <!-- Beginner examples -->
+          <article class="card">
+            <div class="card-top">
+              <h3>Calculator (C++)</h3>
+              <span class="tag tag-done">In progress</span>
+            </div>
+            <p class="card-text">
+              Command-line calculator with clean input validation and modular functions.
+            </p>
+            <div class="meta">
+              <span class="pill">C++</span>
+              <span class="pill">CLI</span>
+              <span class="pill">Input validation</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-small btn-primary" href="https://github.com/YOURUSERNAME/beginner-calculator-cpp" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn btn-small btn-ghost" href="#" aria-disabled="true">Demo soon</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3>To-Do List (C++)</h3>
+              <span class="tag">Planned</span>
+            </div>
+            <p class="card-text">
+              Add/edit/complete tasks and save to a local file. Later upgraded to a web UI.
+            </p>
+            <div class="meta">
+              <span class="pill">C++</span>
+              <span class="pill">File I/O</span>
+              <span class="pill">Data structures</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-small btn-primary" href="#" aria-disabled="true">Repo soon</a>
+              <a class="btn btn-small btn-ghost" href="#" aria-disabled="true">Demo soon</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <h3>Interactive Quiz (C++)</h3>
+              <span class="tag">Planned</span>
+            </div>
+            <p class="card-text">
+              Quiz engine with scoring, categories, and timed questions. Later becomes a web app.
+            </p>
+            <div class="meta">
+              <span class="pill">C++</span>
+              <span class="pill">Logic</span>
+              <span class="pill">Timing</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-small btn-primary" href="#" aria-disabled="true">Repo soon</a>
+              <a class="btn btn-small btn-ghost" href="#" aria-disabled="true">Demo soon</a>
+            </div>
+          </article>
+
+          <!-- Add more cards whenever you finish projects -->
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="section-head">
+          <h2>About</h2>
+        </div>
+        <div class="card card-wide">
+          <p>
+            I’m a mechanical engineering student with a minor in computer science and economics.
+            I’m building a structured portfolio from beginner projects to advanced applications.
+            My focus is clean fundamentals (C++), strong problem-solving, and shipping real products.
+          </p>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section" id="skills">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="section-sub">What I’m using now + what I’m learning next.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Current</h3>
+            <ul class="list">
+              <li>C++ (core)</li>
+              <li>Git + GitHub</li>
+              <li>Problem solving</li>
+              <li>Engineering math/physics</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Learning next</h3>
+            <ul class="list">
+              <li>HTML + CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>APIs + dashboards</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Later</h3>
+            <ul class="list">
+              <li>Backend basics (Node or Python)</li>
+              <li>Databases</li>
+              <li>WebAssembly (C++ → web)</li>
+              <li>Advanced full-stack projects</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="section-sub">Best ways to reach me.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Links</h3>
+            <div class="contact-links">
+              <a class="link" href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
+              <a class="link" href="https://github.com/YOURUSERNAME" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="link" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Quick message</h3>
+            <form class="form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+              <label>
+                <span>Name</span>
+                <input name="name" type="text" placeholder="Your name" required />
+              </label>
+
+              <label>
+                <span>Email</span>
+                <input name="email" type="email" placeholder="you@example.com" required />
+              </label>
+
+              <label>
+                <span>Message</span>
+                <textarea name="message" rows="4" placeholder="Write your message..." required></textarea>
+              </label>
+
+              <button class="btn btn-primary" type="submit">Send</button>
+              <p class="fineprint">
+                (Optional) Replace the Formspree link with your own later. For now you can remove this form if you don’t want it.
+              </p>
+            </form>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Toni Taiwo</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
 
